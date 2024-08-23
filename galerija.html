@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="galerija.css" />
     <title>Dobre Vode</title>
+    <script src="funkcije.js"></script>
   </head>
   <body>
     <div class="pocetna">
@@ -28,7 +29,7 @@
     <div class="velikip"> <h1>VELIKI PIJESAK</h1>
       <p>Plaža je uglavnom kamenita, a na pojedinim mjestima pjeskovita, zbog otvorenog mora talasi su česti.  <br>
       Jedina mana je sto tokom jačeg dela sezone voda ume da bude prljava.Tada idemo na druge plaže koje su po mom mišljenju mnogo zabavnije i mirnije.   </p>
-    <div class="slike1"><img src="slike/1.jpg" alt="slika1" height="330px" width="330px">
+    <div class="slike1"><img id="promenljivaslika" onclick="promeniSliku()" src="slike/1.jpg" alt="slika1" height="330px" width="330px">
   <img src="slike/14.jpg" alt="slika2"height="330px" width="330px">
   <img src="slike/slika15.jpg" alt="slika2"height="330px" width="330px">
   <img src="slike/13.jpg" alt="slika2"height="330px" width="330px">
@@ -53,7 +54,7 @@
     <img src="slike/8.jpg" alt="slika2"height="330px" width="330px">
   </div>
 </div>
-<div class="pas"><img src="slike/pas.gif" alt="slika2"height="130px" width="150px"></div>
+<div class="pas" ><img src="slike/pas.gif" id="pas" alt="slika2"height="130px" width="150px" onclick="promenigif()"></div>
 <footer>
   <p1>Aleksandar Francuski © 2024 - Sva prava zadržana</p1>
 </footer>
