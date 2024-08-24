@@ -48,8 +48,8 @@ function proveriDostupnost() {
       const terminJul = odabranhotel[1];
       const terminAvg = odabranhotel[2];
       const junTerminiString = `\nJun: ${terminJun[0]} - ${terminJun[1]}`;
-      const julTerminiString = `\nJun: ${terminJul[0]} - ${terminJul[1]}`;
-      const avgTerminiString = `\nJun: ${terminAvg[0]} - ${terminAvg[1]}`;
+      const julTerminiString = `\nJul: ${terminJul[0]} - ${terminJul[1]}`;
+      const avgTerminiString = `\nAvg: ${terminAvg[0]} - ${terminAvg[1]}`;
       alert(
         "Slobodni termini  " +
           junTerminiString +
